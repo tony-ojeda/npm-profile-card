@@ -1,0 +1,37 @@
+{
+  "name": "npm-profile-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "makeitrealcamp": "./bin/card.js"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js, bin/card.js",
+    "lint:fix": "eslint --ext .js, bin/card.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-ojeda/npm-profile-card.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tony-ojeda/npm-profile-card/issues"
+  },
+  "homepage": "https://github.com/tony-ojeda/npm-profile-card#readme",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "jest": "^29.0.0",
+    "np": "^7.6.2"
+  }
+}
